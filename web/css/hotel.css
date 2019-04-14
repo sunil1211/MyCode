@@ -1,0 +1,56 @@
+
+#hotel
+{
+    width: 40%;
+    height: 380px;
+    background-color: lavender;
+     border-radius: 4px;
+    font-size: 20px;
+    box-shadow: 0px 20px 40px 0px #5b3682 inset;  
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+  div
+            {
+                text-align: center;
+            }
+            a
+            {
+                width: 140px;
+                height: 40px;
+                float: left;
+                text-decoration: none;
+                font-size: 22px;
+                background-color: #5b3682;
+                padding: 18px 20px;
+                color: white;
+                border: 1px solid white;
+                border-radius: 0px 35px 35px 0px ;
+                display: inline;
+            }
+            a:hover
+            {
+                background-color: lightcoral;
+            }
+            select
+            {
+                width: 200px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                margin-left: 30px;
+                font-size: 16px;
+                padding-left: 4px;
+            }
+            input[type="text"]
+            {
+                width: 200px;
+                height: 40px;
+                 border: none;
+                 font-size: 16px;
+                 padding-left: 4px;
+                border-radius: 3px;
+            }
+

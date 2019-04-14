@@ -1,0 +1,126 @@
+
+#fon
+{
+    background-color: #5b3682;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    border-radius: 0px 35px 35px 0px ;
+    text-shadow: 2px 0px 30px black ;
+    
+}
+#fon:hover
+{
+    color: coral;
+    cursor: pointer;
+}
+/* here is the code for image*/
+#image
+{
+    width: 100%;
+    height: 580px;
+}
+footer
+{
+    width: 100%;
+    height: 60px;
+    background-color:#5b3682;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 7px 0px 30px black ;
+}
+footer:hover
+{
+    color: coral;
+    cursor: pointer;
+}
+/*here is the code of HomePage.jsp*/
+
+#font1
+{
+    font-size: 30px;
+    margin-left: 10%;
+    color: blueviolet;
+}
+.r
+{
+    width: 300px;
+    height: 300px;
+    background-color: lavender;
+    border: none;
+    text-align: center;
+    margin-left: 36%;
+    border-radius: 4px;
+    box-shadow: 0px 20px 40px 0px #5b3682 inset;
+}
+#radi
+{
+    font-size: 20px;
+    
+}
+input[type="submit"]
+{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: lightcoral;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+input[type="reset"]
+{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color:orange;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input[type="reset"]:hover
+{
+     cursor: pointer;
+    transform: scale(1.1); 
+}
+
+@media (max-width: 768px)
+{
+   #fon
+{
+    background-color: #5b3682;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    
+    
+} 
+.r
+{
+    width: 300px;
+    height: 300px;
+    background-color: lavender;
+    border: none;
+    text-align: center;
+   margin-left: 0%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px 0px black inset;
+}
+#font1
+{
+    font-size: 20px;
+    margin-left: 0%;
+    color: blueviolet;
+}
+}
